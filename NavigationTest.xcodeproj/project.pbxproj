@@ -13,6 +13,8 @@
 		FB8519052C38CD6B0000F15F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB8519042C38CD6B0000F15F /* Base */; };
 		FB8519072C38CD6C0000F15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8519062C38CD6C0000F15F /* Assets.xcassets */; };
 		FB85190A2C38CD6C0000F15F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB8519092C38CD6C0000F15F /* Base */; };
+		FB8519142C38CE190000F15F /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8519132C38CE190000F15F /* SecondViewController.storyboard */; };
+		FB8519162C38CE2B0000F15F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8519152C38CE2B0000F15F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FB8519062C38CD6C0000F15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8519092C38CD6C0000F15F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB85190B2C38CD6C0000F15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8519132C38CE190000F15F /* SecondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		FB8519152C38CE2B0000F15F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FB8519062C38CD6C0000F15F /* Assets.xcassets */,
 				FB8519082C38CD6C0000F15F /* LaunchScreen.storyboard */,
 				FB85190B2C38CD6C0000F15F /* Info.plist */,
+				FB8519132C38CE190000F15F /* SecondViewController.storyboard */,
+				FB8519152C38CE2B0000F15F /* SecondViewController.swift */,
 			);
 			path = NavigationTest;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB8519072C38CD6C0000F15F /* Assets.xcassets in Resources */,
+				FB8519142C38CE190000F15F /* SecondViewController.storyboard in Resources */,
 				FB85190A2C38CD6C0000F15F /* Base in Resources */,
 				FB8519052C38CD6B0000F15F /* Base in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8519162C38CE2B0000F15F /* SecondViewController.swift in Sources */,
 				FB8519022C38CD6B0000F15F /* ViewController.swift in Sources */,
 				FB8518FE2C38CD6B0000F15F /* AppDelegate.swift in Sources */,
 				FB8519002C38CD6B0000F15F /* SceneDelegate.swift in Sources */,
